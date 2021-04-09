@@ -1,5 +1,5 @@
 # Basic WEB
-![Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nhancedigital.com%2F4-basic-principles-website-design%2F&psig=AOvVaw01Sg2HMP1-LzJ5paDy29MS&ust=1618063492744000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDFy7Gq8e8CFQAAAAAdAAAAABAJ)
+![Logo](https://lh3.googleusercontent.com/proxy/2uhBk4MM8dIw83uZgmYKDFOkjKsmLq8aMBigwBzKz4_qriR-RwC1SEGAeMS-aJHZBoz8uvYbJ2kqyz5brSgyjuHcWen46bOcqm8fmMm6TEnxBExBBtMilSukq1MgbpWg2S2hCzSnPnrHayAr2nZjFQ)
 - Install VSCode or Sublime Text.
 - Try the code below.
 ```JS
