@@ -1,0 +1,248 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+b {
+    color: red;
+}
+
+#form1 label {
+    color: green;
+}
+
+#name {
+    padding-left: 76.8px;
+}
+
+#sex {
+    padding-left: 90px;
+}
+
+#marry {
+    padding-left: 18px;
+}
+
+#form1 input[type="text"] {
+    width: 300px;
+    border: 1.5px solid green;
+    outline: none;
+}
+
+#form1 input[type="datetime"] {
+    border: 1.5px solid green;
+    outline: none;
+}
+
+#form1 input {
+    margin-top: 10px;
+}
+
+#form1 #sex select {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#form1 #marry select {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#form2 label {
+    color: green;
+}
+
+#address {
+    padding-left: 90px;
+}
+
+#district {
+    padding-left: 33px;
+}
+
+#number1 {
+    padding-left: 64px;
+}
+
+#number2 {
+    padding-left: 11.5px;
+}
+
+#email {
+    padding-left: 98.5px;
+}
+
+#form2 #address input[type="text"] {
+    width: 70%;
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+#form2 #district input[type="text"] {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+#form2 input[type="tel"] {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+}
+
+#form2 input[type="email"] {
+    width: 300px;
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form3 label {
+    color: green;
+}
+
+#academic_level {
+    padding-left: 27px;
+}
+
+#academic_level select {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#form3 #inf_education textarea {
+    margin-left: 3px;
+    margin-top: 5px;
+    position: absolute;
+    border: 1.5px solid green;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+#language {
+    padding-left: 80px;
+}
+
+#form3 #language textarea {
+    margin-left: 3.2px;
+    margin-top: 5px;
+    position: absolute;
+    border: 1.5px solid green;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+#skill {
+    padding-left: 93.5px;
+}
+
+#form3 #skill textarea {
+    margin-left: 3.2px;
+    margin-top: 5px;
+    position: absolute;
+    border: 1.5px solid green;
+    outline: none;
+    padding-bottom: 6px;
+}
+
+#form4 label {
+    color: green;
+}
+
+#exp1 {
+    padding-left: 15.5px;
+}
+
+#form4 #exp1 input[type="text"] {
+    border: 1.5px solid green;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#exp2 {
+    padding-left: 6.3px;
+}
+
+#form4 #exp2 textarea {
+    margin-left: 3.2px;
+    margin-top: 5px;
+    position: absolute;
+    border: 1.5px solid green;
+    outline: none;
+    padding-bottom: 6px;
+}
+
+#form5 label {
+    color: green;
+}
+
+#end1 {
+    padding-left: 10px;
+}
+
+#form5 #end1 textarea {
+    margin-left: 3.2px;
+    margin-top: -27px;
+    position: absolute;
+    border: 1.5px solid green;
+    outline: none;
+    padding-bottom: 20px;
+}
+
+#end2 {
+    margin-left: -6px;
+}
+
+#form5 #end2 input {
+    margin-left: -1.5px;
+    border: 1.5px solid green;
+    outline: none;
+}
+
+button[type="submit"] {
+
+    margin-top: 10px;
+    margin-left: 155px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #58257b
+}
+
+button:active {
+    background-color: red;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}

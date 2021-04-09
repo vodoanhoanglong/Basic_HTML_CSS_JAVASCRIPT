@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+</head>
+
+<body>
+    <script>
+        function GetYear() {
+            do {
+                var year = prompt("Nhập vào năm sinh của bạn");
+                var year_now = new Date();
+                if (year > year_now.getFullYear())
+                   alert("Bạn đã nhập năm sinh lớn hơn năm hiện tại");
+                else
+                    return "Tuổi của bạn là: " + (year_now.getFullYear() - year);
+            } while (year > year_now.getFullYear())
+        }
+        document.write(GetYear());
+    </script>
+</body>
+
+</html>

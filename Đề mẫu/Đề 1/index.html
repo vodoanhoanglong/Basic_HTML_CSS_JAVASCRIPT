@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js.js"></script>
+    <title>Đề 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__name">SHOP AROUND</div>
+        <ul class="container__list">
+            <li class="container__list-item"><a href="#" class="item__link">Home</a></li>
+            <li class="container__list-item"><a href="#" class="item__link">Support</a></li>
+            <li class="container__list-item"><a href="#" class="item__link">Account</a></li>
+            <li class="container__list-item"><a href="#" class="item__link">Store</a></li>
+            <li class="container__list-item"><a href="#" class="item__link">Contact</a></li>
+        </ul>
+    </div>
+    <div class="body">
+        <div class="search">
+            <div class="search__title">Search By</div>
+            <label>Keyword</label><br>
+            <input class="search__input1" type="text" placeholder="Search..." /><br>
+            <label>Category</label><br>
+            <select class="search__select">
+                <option>--Select category--</option>
+                <option>Shirt</option>
+                <option>Trousers</option>
+            </select>
+            <label>Price</label> <input id="price1" class="search__input2" type="text" />
+            <span>to</span> <input id="price2" class="search__input2" type="text" />
+            <span id="numloc"></span><br>
+            <button id="button" type="submit" onclick="check()">Search</button>
+            <br><i class='fas fa-angle-double-right'></i><a> Advanced search</a>
+            <br><i class='fas fa-angle-double-right'></i><a> Contact customer support</a>
+        </div>
+        <div class="img">
+            <img src="/images/slide1.jpg">
+        </div>
+    </div>
+    <div class="end">Home | Support | Account | Store | Contact</div>
+</body>
+</html>

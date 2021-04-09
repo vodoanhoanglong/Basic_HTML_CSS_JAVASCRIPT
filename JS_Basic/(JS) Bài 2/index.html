@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+</head>
+<body>
+    <script>
+        var date = new Date();
+        function GetDay()
+        {
+            if((date.getDay()+1)==1)
+               return "Chủ Nhật";
+            else return (date.getDay()+1);
+        }
+        var data = "Hôm nay là thứ: " + GetDay() + ", ngày " + date.getDate() + " tháng " + (date.getMonth()+1) + " năm " + date.getFullYear();
+        document.write(data);
+    </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/*===Setting===*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, li
+{
+    list-style: none;
+}
+a{text-decoration: none;}
+img
+{
+    display: block;
+}
+/*===Star===*/
+.body{
+    display: flex;
+    margin-left: 20px;
+}
+.body .body__search{
+    margin-top: 30px;
+    width: 300px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+    height: 300px;
+}
+.body .body__search .body__search-title{
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 10px;
+}
+.body .body__search .body__search-input1, .body__search-select{
+    outline: none;
+    background-color: #F5F5F5;
+    border: 0.5px solid black;
+    margin-left: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.body .body__search .body__search-input2{
+    margin-top: 10px;
+    width: 105px;
+    outline: none;
+    height: 25px;
+}
+.body .body__search a
+{
+    color: red;
+    cursor: pointer;
+}
+.body .body__search i
+{
+    margin-left: 10px;
+    font-size: 10px;
+    color: red;
+}
+.body .body__search a:hover
+{
+    color:black;
+}
+label{
+    margin-left: 10px;
+    font-size: 17px;
+}
+span{font-size: 17px;}
+button
+{
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover
+{
+    color:red;
+    background-color: white;
+}
+.body .body__img{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.body .body__img-item
+{
+    margin-left: 10px;
+}
+img
+{
+    width: 300px;       
+    z-index: -1;
+}
+.body .body__img .body__img-item .item__information
+{
+    margin-top: -180px;
+    position: absolute;
+    height: 60px;
+    width: 220px;
+}
+.body .body__img .body__img-item .item__information .item__information-name
+{
+    color: white;
+    background-color: red;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.body .body__img .body__img-item .item__information .item__information-price
+{
+    background-color: white;
+    height: 100px;
+    opacity: 0.5;
+    padding-left: 5px;
+}
+.price__color
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.end
+{
+    color:gray;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #a3a2a29b;
+}
+#numloc
+{
+    color: red;
+    margin-left: 10px;
+    font-weight: bold;
+}

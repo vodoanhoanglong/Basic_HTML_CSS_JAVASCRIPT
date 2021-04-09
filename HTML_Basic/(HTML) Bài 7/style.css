@@ -1,0 +1,91 @@
+table 
+{
+    width: 450px;
+    height: 250px;
+    border-color: black;
+}
+
+p 
+{
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#ip1 {
+    width: 150px;
+    height: 13px;
+    border: inset;
+    outline: none;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: inset;
+    outline: none;
+    cursor: pointer;
+    /* box-shadow: 0 0 0 2px gray; */
+}
+/* input[type='radio']:checked {
+    box-shadow: 0 0 0 2px green;
+} */
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+}
+
+input[type='radio']:checked:before {
+    background: black;
+    
+}
+#ip2
+{
+   padding-left: 30%;
+}
+#ip2 label
+{
+    position: fixed;
+}
+input[type='checkbox']
+{
+    -webkit-appearance: none;
+    width: 14px;
+    height: 13px;
+    border: inset;
+    outline: none;
+    cursor: pointer;
+}
+input[type='checkbox']:before {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+    border-radius: 50%;
+}
+input[type='checkbox']:checked:before
+{
+    background: black;
+}
+#ip3
+{
+    padding-left: 30%;
+}
+#ip3 button
+{
+    cursor: pointer;
+    outline: none;
+    border: outset;   
+}
+button:hover
+{
+    background-color: aquamarine;
+}

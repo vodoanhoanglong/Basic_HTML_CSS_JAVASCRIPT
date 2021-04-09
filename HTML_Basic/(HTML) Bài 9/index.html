@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Bài 9</title>
+</head>
+
+<body>
+  <h1>ĐĂNG KÝ THÔNG TIN VIỆC LÀM</h1>
+  <table>
+    <tr>
+      <td style="background-color: green; color: white">Thông tin cá nhân</td>
+    </tr>
+    <br />
+    <tr>
+      <td>
+        <form id="form1">
+          <label id="name"><b>* </b>Họ & tên:
+            <input type="text" /></label> <br />
+          <label><b>* </b>Ngày tháng năm sinh:
+            <input type="datetime" /> </label><br />
+          <label id="sex">Giới tính:
+            <select>
+              <option>Nam</option>
+              <option>Nữ</option>
+            </select>
+          </label>
+          <br />
+          <label id="marry">Tình trạng hôn nhân:
+            <select>
+              <option>Độc thân</option>
+              <option>Kết hôn</option>
+            </select>
+          </label>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: green; color: white;">
+        Thông tin liên lạc
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <form id="form2">
+          <label id="address"><b>* </b>Địa chỉ: <input type="text" /></label>
+          <br />
+
+          <label id="district"><b>* </b>Tỉnh/Thành phố: <input type="text" />
+          </label>
+          <br />
+          <label id="number1">Số điện thoại: <input type="tel" /> </label>
+          <br />
+          <label id="number2">Số điện thoại di động: <input type="tel" /> </label><br />
+          <label id="email"><b>* </b>Email: <input type="email" /> </label><br />
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: green; color: white">Trình độ học vấn</td>
+    </tr>
+    <tr>
+      <td>
+        <form id="form3">
+          <label id="academic_level"><b>* </b>Trình độ học vấn:
+            <select>
+              <option>Chọn</option>
+              <option>Đại học</option>
+              <option>Trung học</option>
+              <option>Khác</option>
+            </select>
+          </label> <br>
+          <label id="inf_education"><b>* </b>Thông tin về học vấn: <textarea cols="50" rows="3"></textarea> </label><br>
+          <br><br><br>
+          <label id="language">Ngoại ngữ: <textarea cols="50" rows="3"></textarea></label><br>
+          <br><br><br>
+          <label id="skill">Kỹ năng: <textarea cols="50" rows="3"></textarea></label><br>
+          <br><br><br>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: green; color: white">Kinh nghiệm làm việc</td>
+    </tr>
+    <tr>
+      <td>
+        <form id="form4">
+          <label id="exp1">Số năm kinh nghiệm: <input type="text" /> </label> <br>
+          <label id="exp2">Kinh nghiệm làm việc: <textarea cols="50" rows="3"></textarea></label>
+          <br><br><br><br>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: green; color: white">Mong muốn của bản thân</td>
+    </tr>
+    <tr>
+      <td>
+        <form id="form5">
+          <br><br>
+          <label id="end1">Việc làm mong muốn: <textarea cols="50" rows="3"></textarea></label>
+          <br><br><br>
+          <label id="end2"><b>* </b>Mức lương thỏa thuận: <input type="text" /> VNĐ</label>
+          <br>
+          <button type="submit">Gửi hồ sơ</button>
+          <button type="reset">Xóa Form</button>
+        </form>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

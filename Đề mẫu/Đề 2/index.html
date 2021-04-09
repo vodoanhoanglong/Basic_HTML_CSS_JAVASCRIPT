@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" async></script>
+    <script src="js.js" async></script>
+    <title>Đề 2</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="body__search">
+            <div class="body__search-title">Search By</div>
+            <label>Keyword</label><br />
+            <input class="body__search-input1" type="text" placeholder="Search..." /><br />
+            <label>Category</label><br />
+            <select class="body__search-select">
+                <option>--Select category--</option>
+                <option>Shirt</option>
+                <option>Trousers</option>
+            </select>
+            <label>Price</label>
+            <input id="price1" class="body__search-input2" type="text" />
+            <span>to</span>
+            <input id="price2" class="body__search-input2" type="text" />
+            <span id="numloc"></span><br />
+            <button id="button" type="submit" onclick="check()">Search</button>
+            <br /><i class="fas fa-angle-double-right"></i><a> Advanced search</a>
+            <br /><i class="fas fa-angle-double-right"></i><a> Contact customer support</a>
+        </div>
+        <div class="body__img">
+            <div class="body__img-item">
+                <img src="/images/big1.jpg" />
+                <div class="item__information">
+                    <div class="item__information-name">LOREM IPSUM</div>
+                    <div class="item__information-price">
+                        <span>Woment</span><br>
+                        <span>LOREM IPSUM DOLOR SIT AMET</span><br>
+                        <span class="price__color">$58.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body__img-item">
+                <img src="/images/big2.jpg" />
+                <div class="item__information">
+                    <div class="item__information-name">LOREM IPSUM</div>
+                    <div class="item__information-price">
+                        <span>Woment</span><br>
+                        <span>LOREM IPSUM DOLOR SIT AMET</span><br>
+                        <span class="price__color">$58.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body__img-item">
+                <img src="/images/big3.jpg" />
+                <div class="item__information">
+                    <div class="item__information-name">LOREM IPSUM</div>
+                    <div class="item__information-price">
+                        <span>Woment</span><br>
+                        <span>LOREM IPSUM DOLOR SIT AMET</span><br>
+                        <span class="price__color">$58.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end">Home | Support | Account | Store | Contact</div>
+</body>
+</html>

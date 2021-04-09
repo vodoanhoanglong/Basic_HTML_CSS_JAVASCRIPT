@@ -1,0 +1,35 @@
+table
+{
+    border: 1px solid;
+    height: 150px;
+    width: 300px;
+}
+p
+{
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+input
+{
+    outline: none;
+    border: inset;
+}
+input[type="password"]
+{
+    margin-left: 34.5px;
+    margin-top: 5px;
+}
+button[type="submit"]
+{
+    cursor: pointer;
+    border: outset;
+    margin-left: 102.5px;
+    margin-top: 5px;
+}
+button[type="reset"]
+{
+    cursor: pointer;
+    border: outset;
+}

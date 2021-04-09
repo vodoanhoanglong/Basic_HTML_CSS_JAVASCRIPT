@@ -1,0 +1,75 @@
+body
+{
+    background-color: pink;
+}
+#tb1
+{
+    margin-left: 50px;
+    border: 2px solid blueviolet;
+    width: 960px;
+}
+#tb1 th
+{
+    color: white;
+    font-size: 50px;
+    height: 50px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#tb1 b
+{
+    color: black;
+}
+#tb1 td
+{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+}
+#td1, #td2
+{
+    position: absolute;
+    margin-left: 50px;
+}
+#td1
+{
+    border: 1px solid green;
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+    border-top: none;
+    border-left:2px solid blueviolet;
+}
+#td2
+{
+    margin-left: 355px;
+    border: 1px solid brown;
+    width: 652px;
+    height: 300px;
+    vertical-align: top;
+    border-right:2px solid blueviolet;
+    border-top: none;
+}
+#td3
+{
+    margin-left: 50px;
+    margin-top: 300px;
+    border-top:none;
+    border-left:2px solid blueviolet;
+    border-right:2px solid blueviolet;
+    border-bottom:2px solid brown;
+    height: 50px;
+    width: 956px;
+}
+#td4
+{
+    margin-left: 50px;
+    border: 1px solid green;
+    border-top:none;
+    height: 50px;
+    width: 958px;
+}
+

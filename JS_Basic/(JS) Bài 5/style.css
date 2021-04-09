@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: blueviolet;
+}
+input[type="button"]:hover
+{
+    background-color: black;
+    color: aqua;
+}
+input[type="button"]
+{
+    width: 20px;
+    height: 20px;
+    font-size: 25;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+.textview
+{
+    width: 84px;
+    margin: 3px;
+    font-size: 25;
+    padding: 2px;
+    border-radius: 2px;
+    outline: none;
+}
+.main
+{
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-49%);
+    background: linear-gradient(to right, red, blue);
+}

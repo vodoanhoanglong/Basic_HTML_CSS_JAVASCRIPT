@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7</title>
+</head>
+
+<body>
+    <script>
+        function getNum() {
+            do {
+                var x = parseFloat(prompt("Mời bạn nhập vào 1 số nguyên"));
+                if (!Number.isInteger(x))
+                    alert("Số vừa nhập không phải số nguyên, bấm OK để nhập lại");
+                else return x;
+            } while (!Number.isInteger(x));
+        }
+
+        function check(n) {
+            var flag = true;
+
+            if (n < 2) {
+                flag = false;
+            } else {
+                for (var i = 2; i < n - 1; i++) {
+                    if (n % i == 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+            if (flag == true) {
+               return (n + " là số nguyên tố <br/>");
+            } else {
+                return (n + " không phải là số nguyên tố <br/>");
+            }
+        }
+        document.write(check(getNum()));
+    </script>
+</body>
+
+</html>
