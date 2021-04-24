@@ -1,5 +1,5 @@
 # Basic WEB
-![Logo](https://lh3.googleusercontent.com/proxy/2uhBk4MM8dIw83uZgmYKDFOkjKsmLq8aMBigwBzKz4_qriR-RwC1SEGAeMS-aJHZBoz8uvYbJ2kqyz5brSgyjuHcWen46bOcqm8fmMm6TEnxBExBBtMilSukq1MgbpWg2S2hCzSnPnrHayAr2nZjFQ)
+![Logo](https://nentang.vn/wp-content/uploads/2018/07/html-css-js-course-intro.jpeg)
 - Install VSCode or Sublime Text.
 - Try the code below.
 ```JS
